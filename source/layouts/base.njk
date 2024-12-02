@@ -1,0 +1,28 @@
+{%- from "../templates/header.njk" import header with context -%}
+{%- from "../templates/footer.njk" import footer with context -%}
+
+<!DOCTYPE html>
+<html class="page" lang="{{ page.lang }}">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>{{ page.title }} — {{ project.name }}</title>
+	<link rel="stylesheet" href="{{ project.root }}/styles/styles.css">
+	<link rel="icon" href="{{ project.root }}/favicon.ico" sizes="32x32">
+	<link rel="icon" href="{{ project.root }}/favicons/icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="{{ project.root }}/favicons/icon-180.png">
+	<link rel="manifest" href="{{ project.root }}/manifest.webmanifest">
+	<link rel="preload" href="{{ project.root }}/fonts/lato-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<script src="{{ project.root }}/scripts/index.js" type="module"></script>
+</head>
+
+<body class="page__body">
+	{{ header() }}
+
+	{% block main %}{% endblock %}
+
+	{{ footer() }}
+</body>
+
+</html>
