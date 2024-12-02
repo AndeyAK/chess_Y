@@ -1,11 +1,3 @@
-# Личный проект «Кэт энерджи»
-
-[![Project check][check-image]][check-url]
-
-* Студент: [Андрей Катасонов](https://up.htmlacademy.ru/adaptive/31/user/2450769).
-* Наставник: [Сергей Артёмов](https://htmlacademy.ru/profile/firefoxic).
-
----
 
 ## Важно
 
