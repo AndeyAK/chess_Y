@@ -1,0 +1,9 @@
+node_modules
+build
+raw
+.idea
+.DS_Store
+source/images/**/*.jpg
+source/images/**/*.jpeg
+source/images/**/*.png
+source/images/**/*.js
