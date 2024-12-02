@@ -1,1 +1,25 @@
 {%- extends "./layouts/base.njk" -%}
+
+{%- set page = {
+title: "Главная",
+link: "/",
+lang: "ru"
+} -%}
+
+{% block main %}
+
+<main class="main-container main-container--index">
+
+	<section class="main-container__promo promo">
+		<div class="promo__content page__centerer">
+			<div class="promo__text">
+				<h1 class="promo__title">Функциональное питание для котов</h1>
+				<div class="promo__description">Занялся собой? Займись котом!</div>
+			</div>
+			<a class="promo__link button" href="javascript:void(0)">Подобрать программу</a>
+		</div>
+	</section>
+
+</main>
+
+{% endblock %}
